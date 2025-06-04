@@ -1,8 +1,0 @@
-#secretKey{
-    text-transform: uppercase;
-}
-edit-apikey-modal{
-    display: flex;
-    flex-direction:column;
-}
-
