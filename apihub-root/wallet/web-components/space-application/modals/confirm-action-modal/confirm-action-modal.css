@@ -1,9 +1,0 @@
-.modal-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.confirm-action{
-    margin-top: 10px;
-}
