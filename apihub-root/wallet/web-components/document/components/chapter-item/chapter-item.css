@@ -1,0 +1,236 @@
+.chapter-title-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: var(--light-black);
+    font-weight: 600;
+    padding: 0 0 0 8px;
+    line-height: normal;
+    overflow: visible;
+}
+
+.highlight-chapter-header {
+    background: var(--white-blue-tint) !important;
+}
+
+.highlighted-chapter{
+    background-color: var(--white-blue-tint);
+}
+
+.chapter-container{
+
+    border-radius: 5px;
+}
+.chapter-container.highlighted-chapter{
+    padding: 10px;
+}
+.chapter-header-container {
+    border-radius: 4px 0;
+    width: 100%;
+}
+
+.toolbar-left-section{
+    display: flex;
+    align-items: center;
+}
+.toolbar-right-section{
+    display: flex;
+    align-items: center;
+}
+.toolbar-margin{
+    margin-right: 40px;
+}
+
+.toolbar-menu {
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    font-size: 14px;
+    top: 35px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 1px 5.5px 0px #65666754;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+.chapter-actions{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.chapter-comment{
+    display:flex;
+    align-items:center;
+}
+.arrow {
+    margin-right: 5px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.highlighted-chapter{
+    background-color: var(--white-blue-tint);
+}
+
+.chapter-title-container.highlighted-chapter{
+    padding: 10px;
+}
+
+.chapter-toolbar{
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    width: 40%;
+    /*background-color: var(--commands-background);*/
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    /*border-bottom: 2px solid var(--very-light-gray);*/
+}
+.chapter-left-section{
+    display: flex;
+    align-items: center;
+}
+.chapter-right-section{
+    display: flex;
+    align-items: center;
+}
+.chapter-margin{
+    margin-right: 20px;
+}
+
+
+.arrow:focus{
+    outline: none;
+}
+
+html[theme="dark"] .arrow svg {
+    filter: brightness(0) invert(1);
+}
+.chapter-title.focused{
+    box-shadow: inset 0 0 0 2px var(--commands-background);
+}
+.action-box-chapter{
+    margin-right: 10px;
+}
+.ten-px-margin-left {
+    margin-left: 10px;
+}
+
+.chapter-item {
+    cursor: default;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    width: 100%;
+}
+
+.chapter-content {
+    min-width: 0;
+    justify-content: start;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.chapter-arrows {
+    display: flex;
+    width: 42px;
+    min-width: 42px;
+    justify-content: space-between;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+.chapter-arrows {
+    display: none;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.chapter-title {
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+    margin-left: 3px;
+    display: inline-block;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.chapter-text {
+    width: 100%;
+    position: relative;
+}
+
+.chapter-item {
+    width: 100%;
+}
+
+.chapter-paragraphs {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+}
+.chapter-visibility-arrow{
+    margin-right: 10px;
+}
+.chapter-content {
+    width: 100%;
+}
+
+.data-chapter-number {
+    width: 25px;
+}
+.circle-button{
+    width: 16px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.circle-button:hover {
+    background-color: var(--medium-black);
+}
+
+.flex{
+    display: flex;
+}
+.chapter-audio{
+    margin-right: 5px;
+}
+.top-audio-section{
+    display: flex;
+    align-items: center;
+}
+.icon-container{
+    display: flex;
+    align-items: center;
+}
+
+.chapter-icons{
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+}
+.chapter-audio-icon{
+    margin-right: 5px;
+}
+
+html[theme="dark"] input.chapter-title{
+    background: var(--white)
+}
+
+.chapter-plugins-icons{
+    display: flex;
+}

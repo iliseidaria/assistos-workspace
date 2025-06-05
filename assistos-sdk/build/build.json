@@ -1,0 +1,6 @@
+{
+    "assistos_sdk":{
+        "deps":"../../index.js:assistos",
+        "autoLoad":true
+    }
+}

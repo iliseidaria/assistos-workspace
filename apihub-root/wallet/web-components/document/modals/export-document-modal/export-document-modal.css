@@ -1,0 +1,17 @@
+.modal-footer {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.export-button {
+    cursor: pointer;
+    padding: 6px;
+    background-color: var(--blue-button);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: var(--white);
+}

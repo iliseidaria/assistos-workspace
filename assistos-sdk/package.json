@@ -1,0 +1,20 @@
+{
+  "name": "assistos-sdk",
+  "version": "1.0.0",
+  "description": "The official AssistOS library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ../opendsu-sdk/psknode/bin/scripts/pskbuild.js --source=./../ --projectMap=./build/build.json  --prod=true --output=./build/bundles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AssistOS-AI/assistos-sdk.git"
+  },
+  "author": "Axiologic Research",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AssistOS-AI/assistos-sdk/issues"
+  },
+  "homepage": "https://github.com/AssistOS-AI/assistos-sdk#readme"
+}

@@ -1,0 +1,12 @@
+task-watcher {
+    display: none;
+}
+
+task-watcher.active {
+    display: flex;
+    flex-direction: column;
+}
+
+.active {
+    display: block;
+}

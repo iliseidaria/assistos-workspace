@@ -1,0 +1,651 @@
+{
+    "defaultPage": "chat-page",
+    "webComponentsRootDir": "wallet/web-components",
+    "services": [],
+    "components": [
+        {
+            "name": "personality-video",
+            "directory": "personality",
+            "type": "pages",
+            "presenterClassName": "PersonalityVideo"
+        },
+        {
+            "name": "personality-image",
+            "directory": "personality",
+            "type": "pages",
+            "presenterClassName": "PersonalityImage"
+        },
+        {
+            "name": "personality-text",
+            "directory": "personality",
+            "type": "pages",
+            "presenterClassName": "PersonalityText"
+        },
+        {
+            "name": "personality-description",
+            "directory": "personality",
+            "type": "pages",
+            "presenterClassName": "PersonalityDescription"
+        },
+        {
+            "name": "personality-audio",
+            "directory": "personality",
+            "type": "pages",
+            "presenterClassName": "PersonalityAudio"
+        },
+        {
+            "name": "personality-chat",
+            "directory": "personality",
+            "type": "pages",
+            "presenterClassName": "PersonalityChat"
+        },
+        {
+            "name": "telegram-bot",
+            "directory": "personality",
+            "type": "pages",
+            "presenterClassName": "TelegramBot"
+        },
+        {
+            "name": "action-box-snapshot",
+            "directory": "document",
+            "type": "components"
+        },
+        {
+            "name": "document-snapshots-modal",
+            "directory": "document",
+            "type": "modals",
+            "presenterClassName": "DocumentSnapshotsModal"
+        },
+        {
+            "name": "files-menu",
+            "directory": "document",
+            "type": "components",
+            "presenterClassName": "FilesMenu"
+        },
+        {
+            "name": "diagram-menu",
+            "directory": "document",
+            "type": "modals",
+            "presenterClassName": "DiagramMenu"
+        },
+        {
+            "name": "notification-toast",
+            "directory": "space-application",
+            "type": "components",
+            "presenterClassName": "NotificationToast"
+        },
+        {
+            "name": "chapter-background-audio",
+            "directory": "document",
+            "type": "modals",
+            "presenterClassName": "ChapterBackgroundAudio"
+        },
+        {
+            "name": "fb-musicgen-sm-model-page",
+            "directory": "space-application",
+            "type": "pages",
+            "presenterClassName": "FbMusicgenSmModelPage"
+        },
+        {
+            "name": "task-watcher",
+            "directory": "space-application",
+            "type": "components",
+            "presenterClassName": "TaskWatcher"
+        },
+        {
+            "name": "log-entry",
+            "directory": "space-application",
+            "type": "components",
+            "presenterClassName": "LogEntry"
+        },
+        {
+            "name": "llm-observer",
+            "directory": "space-application",
+            "type": "components",
+            "presenterClassName": "LLMObserver"
+        },
+        {
+            "name": "notifications-monitor",
+            "directory": "space-application",
+            "type": "components",
+            "presenterClassName": "NotificationsMonitor"
+        },
+        {
+            "name": "fb-mms-tts-bht-model-page",
+            "directory": "space-application",
+            "type": "pages",
+            "presenterClassName": "FbMmsTtsBhtModelPage"
+        },
+        {
+            "name": "confirm-action-modal",
+            "directory": "space-application",
+            "type": "modals",
+            "presenterClassName": "ConfirmActionModal"
+        },
+        {
+            "name": "application-preview-page-modal",
+            "directory": "space-application",
+            "type": "modals",
+            "presenterClassName": "ApplicationPreviewPageModal"
+        },
+        {
+            "name": "flux-dev-model-page",
+            "directory": "space-application",
+            "type": "pages",
+            "presenterClassName": "FluxDevModelPage"
+        },
+        {
+            "name": "flux-schnell-model-page",
+            "directory": "space-application",
+            "type": "pages",
+            "presenterClassName": "FluxSchnellModelPage"
+        },
+        {
+            "name": "llm-demo-page",
+            "directory": "space-application",
+            "type": "pages",
+            "presenterClassName": "LlmDemoPage"
+        },
+        {
+            "name": "view-context-modal",
+            "directory": "space-application",
+            "type": "modals",
+            "presenterClassName": "ViewContextModal"
+        },
+        {
+            "name": "video-menu",
+            "directory": "document",
+            "type": "modals",
+            "presenterClassName": "VideoMenu"
+        },
+        {
+            "name": "image-menu",
+            "directory": "document",
+            "type": "modals",
+            "presenterClassName": "ImageMenu"
+        },
+
+        {
+            "name": "paragraph-comment-menu",
+            "directory": "document",
+            "type": "components",
+            "presenterClassName": "ParagraphCommentMenu"
+        },
+        {
+            "name": "chapter-comment-menu",
+            "directory": "document",
+            "type": "components",
+            "presenterClassName": "ChapterCommentMenu"
+        },
+        {
+            "name": "document-comment-menu",
+            "directory": "document",
+            "type": "components",
+            "presenterClassName": "DocumentCommentMenu"
+        },
+        {
+            "name": "export-document-modal",
+            "directory": "document",
+            "type": "modals",
+            "presenterClassName": "ExportDocumentModal"
+        },
+        {
+            "name": "insert-attachment-modal",
+            "directory": "document",
+            "type": "modals",
+            "presenterClassName": "InsertAttachmentModal"
+        },
+        {
+            "name": "document-tasks-modal",
+            "directory": "document",
+            "type": "modals",
+            "presenterClassName": "DocumentTasksModal"
+        },
+        {
+            "name": "task-item",
+            "directory": "document",
+            "type": "components",
+            "presenterClassName": "TaskItem"
+        },
+        {
+            "name": "history-image",
+            "directory": "gallery",
+            "type": "components",
+            "presenterClassName": "HistoryImage"
+        },
+        {
+            "name": "action-box-chapter",
+            "directory": "document",
+            "type": "components"
+        },
+        {
+            "name": "chapter-item",
+            "directory": "document",
+            "type": "components",
+            "presenterClassName": "ChapterItem"
+        },
+        {
+            "name": "image-paragraph",
+            "directory": "document",
+            "type": "components",
+            "presenterClassName": "ImageParagraph"
+        },
+        {
+            "name": "paragraph-item",
+            "directory": "document",
+            "type": "components",
+            "presenterClassName": "ParagraphItem"
+        },
+        {
+            "name": "paragraph-table-item",
+            "directory": "document",
+            "type": "components",
+            "presenterClassName": "ParagraphTableItem"
+        },
+        {
+            "name": "audio-menu",
+            "directory": "document",
+            "type": "modals",
+            "presenterClassName": "AudioMenu"
+        },
+        {
+            "name": "document-view-page",
+            "directory": "document",
+            "type": "pages",
+            "presenterClassName": "DocumentViewPage"
+        },
+        {
+            "name": "documents-page",
+            "directory": "document",
+            "type": "pages",
+            "presenterClassName": "DocumentsPage"
+        },
+        {
+            "name": "generate-image-page",
+            "directory": "gallery",
+            "type": "pages",
+            "presenterClassName": "GenerateImagePage"
+        },
+        {
+            "name": "gallery-page",
+            "directory": "gallery",
+            "type": "pages",
+            "presenterClassName": "GalleryPage"
+        },
+        {
+            "name": "gallery-item",
+            "directory": "gallery",
+            "type": "components"
+        },
+        {
+            "name": "add-gallery-modal",
+            "directory": "gallery",
+            "type": "modals",
+            "presenterClassName": "AddGalleryModal"
+        },
+        {
+            "name": "action-box-gallery",
+            "directory": "gallery",
+            "type": "components"
+        },
+        {
+            "name": "galleries-page",
+            "directory": "gallery",
+            "type": "pages",
+            "presenterClassName": "GalleriesPage"
+        },
+        {
+            "name": "list-item",
+            "directory": "space-application",
+            "type": "components"
+        },
+        {
+            "name": "add-space-collaborator-modal",
+            "directory": "space-application",
+            "type": "modals",
+            "presenterClassName": "AddSpaceCollaboratorModal"
+        },
+        {
+            "name": "document-item",
+            "directory": "document",
+            "type": "components"
+        },
+        {
+            "name": "application-document-item",
+            "directory": "document",
+            "type": "components",
+            "presenterClassName": "ApplicationDocumentItem"
+        },
+        {
+            "name": "add-document-modal",
+            "directory": "document",
+            "type": "modals",
+            "presenterClassName": "AddDocumentModal"
+        },
+        {
+            "name": "ml-ide-page",
+            "directory": "space-application",
+            "type": "pages",
+            "presenterClassName": "MlIDEPage"
+        },
+        {
+            "name": "llm-playground-page",
+            "directory": "space-application",
+            "type": "pages",
+            "presenterClassName": "LLMPlaygroundPage"
+        },
+        {
+            "name": "space-application-page",
+            "directory": "space-application",
+            "type": "pages",
+            "presenterClassName": "SpaceApplicationPage"
+        },
+        {
+            "name": "git-credentials-modal",
+            "directory": "space-application",
+            "type": "modals",
+            "presenterClassName": "GitCredentialsModal"
+        },
+        {
+            "name": "add-marketplace-modal",
+            "directory": "application",
+            "type": "modals",
+            "presenterClassName": "AddMarketplaceModal"
+        },
+        {
+            "name": "client-disconnect-modal",
+            "directory": "application",
+            "type": "modals",
+            "presenterClassName": "ClientDisconnectModal"
+        },
+        {
+            "name": "action-box-marketplace",
+            "directory": "application",
+            "type": "components"
+        },
+        {
+            "name": "application-page",
+            "type": "pages",
+            "directory": "application",
+            "presenterClassName": "ApplicationPage"
+        },
+        {
+            "name": "left-sidebar",
+            "directory": "space-application",
+            "type": "components",
+            "presenterClassName": "LeftSidebar"
+        },
+        {
+            "name": "tasks-page",
+            "directory": "space-application",
+            "type": "pages",
+            "presenterClassName": "TasksPage"
+        },
+        {
+            "name": "chat-page",
+            "directory": "space-application",
+            "type": "pages",
+            "presenterClassName": "ChatPage"
+        },
+        {
+            "name": "settings-page",
+            "directory": "space-application",
+            "type": "pages",
+            "presenterClassName": "SettingsPage"
+        },
+        {
+            "name": "applications-marketplace-page",
+            "directory": "application",
+            "type": "pages",
+            "presenterClassName": "ApplicationsMarketplacePage"
+        },
+        {
+            "name": "confirmation-popup",
+            "directory": "space-application",
+            "type": "components",
+            "presenterClassName": "ConfirmationPopup"
+        },
+        {
+            "name": "llm-animation",
+            "directory": "space-application",
+            "type": "modals"
+        },
+        {
+            "name": "edit-personality-page",
+            "directory": "personality",
+            "type": "pages",
+            "presenterClassName": "EditPersonalityPage"
+        },
+        {
+            "name": "personality-item",
+            "directory": "personality",
+            "presenterClassName": "PersonalityItem",
+            "type": "components"
+        },
+        {
+            "name": "flow-item",
+            "directory": "flow",
+            "type": "components"
+        },
+        {
+            "name": "announcement-item",
+            "directory": "space-application",
+            "type": "components"
+        },
+        {
+            "name": "action-box",
+            "directory": "space-application",
+            "type": "components"
+        },
+        {
+            "name": "chat-item",
+            "directory": "space-application",
+            "type": "components",
+            "presenterClassName": "ChatItem"
+        },
+        {
+            "name": "announcements-page",
+            "directory": "space-application",
+            "type": "pages",
+            "presenterClassName": "AnnouncementsPage"
+        },
+        {
+            "name": "personalities-page",
+            "directory": "personality",
+            "type": "pages",
+            "presenterClassName": "PersonalitiesPage"
+        },
+        {
+            "name": "flows-page",
+            "directory": "flow",
+            "type": "pages",
+            "presenterClassName": "FlowsPage"
+        },
+        {
+            "name": "add-announcement-modal",
+            "directory": "space-application",
+            "type": "modals",
+            "presenterClassName": "AddAnnouncementModal"
+        },
+        {
+            "name": "add-personality-modal",
+            "directory": "personality",
+            "type": "modals",
+            "presenterClassName": "AddPersonalityModal"
+        },
+        {
+            "name": "add-flow-modal",
+            "directory": "flow",
+            "type": "modals",
+            "presenterClassName": "AddFlowModal"
+        },
+        {
+            "name": "edit-apikey-modal",
+            "directory": "space-application",
+            "type": "modals",
+            "presenterClassName": "EditApikeyModal"
+        },
+        {
+            "name": "edit-flow-modal",
+            "directory": "flow",
+            "type": "modals",
+            "presenterClassName": "EditFlowModal"
+        },
+        {
+            "name": "edit-announcement-modal",
+            "directory": "space-application",
+            "type": "modals",
+            "presenterClassName": "EditAnnouncementModal"
+        },
+        {
+            "name": "show-error-modal",
+            "directory": "space-application",
+            "type": "modals",
+            "presenterClassName": "ShowErrorModal"
+        },
+        {
+            "name": "add-space-modal",
+            "directory": "space-application",
+            "type": "modals",
+            "presenterClassName": "AddSpaceModal"
+        },
+        {
+            "name": "authentication-page",
+            "directory": "space-application",
+            "type": "pages",
+            "presenterClassName": "AuthenticationPage"
+        },
+        {
+            "name": "account-settings-page",
+            "directory": "space-application",
+            "type": "pages",
+            "presenterClassName": "AccountSettingsPage"
+        },
+        {
+            "name": "application-item",
+            "directory": "application",
+            "type": "components",
+            "presenterClassName": "ApplicationItem"
+        },
+        {
+            "name": "print-document-modal",
+            "directory": "document",
+            "type": "modals",
+            "presenterClassName": "PrintDocumentModal"
+        },
+        {
+            "name": "application-creator-landing",
+            "directory": "space-application",
+            "presenterClassName": "ApplicationCreatorLanding",
+            "type": "pages"
+        },
+        {
+            "name": "application-creator-sidebar",
+            "directory": "space-application",
+            "presenterClassName": "ApplicationCreatorSidebar",
+            "type": "components"
+        },
+        {
+            "name": "application-creator-menu",
+            "directory": "space-application",
+            "presenterClassName": "ApplicationCreatorMenu",
+            "type": "pages"
+        },
+        {
+            "name": "application-creator-themes",
+            "directory": "space-application",
+            "presenterClassName": "ApplicationCreatorThemes",
+            "type": "pages"
+        },
+        {
+            "name": "application-creator-pages",
+            "directory": "space-application",
+            "presenterClassName": "ApplicationCreatorPages",
+            "type": "pages"
+        },
+        {
+            "name": "application-creator-preview",
+            "directory": "space-application",
+            "presenterClassName": "ApplicationCreatorPreview",
+            "type": "pages"
+        },
+        {
+            "name": "application-creator-settings",
+            "directory": "space-application",
+            "presenterClassName": "ApplicationCreatorSettings",
+            "type": "pages"
+        },
+        {
+            "name": "application-edit-page-modal",
+            "directory": "space-application",
+            "presenterClassName": "ApplicationEditPageModal",
+            "type": "modals"
+        },
+        {
+            "name": "application-edit-theme-modal",
+            "directory": "space-application",
+            "presenterClassName": "ApplicationEditThemeModal",
+            "type": "modals"
+        },
+        {
+            "name": "application-generate-theme-modal",
+            "directory": "space-application",
+            "presenterClassName": "ApplicationGenerateThemeModal",
+            "type": "modals"
+        },
+        {
+            "name": "application-edit-menu-modal",
+            "directory": "space-application",
+            "presenterClassName": "ApplicationEditMenuModal",
+            "type": "modals"
+        },
+        {
+            "name":"modal-widget",
+            "directory":"widgets",
+            "presenterClassName":"ModalWidget",
+            "type":"widget"
+        },
+        {
+            "name":"carousel-widget",
+            "directory":"widgets",
+            "presenterClassName":"ModalWidget",
+            "type":"widget"
+        },
+        {
+            "name":"text-widget",
+            "directory":"widgets",
+            "presenterClassName":"TextWidget",
+            "type":"widget"
+        },
+        {
+            "name":"about-us",
+            "directory":"widgets",
+            "presenterClassName":"AboutUs",
+            "type":"widget"
+        },
+        {
+            "name":"blog-widget",
+            "directory":"widgets",
+            "presenterClassName":"BlogWidget",
+            "type":"widget"
+        },
+        {
+            "name":"contact-widget",
+            "directory":"widgets",
+            "presenterClassName":"ContactWidget",
+            "type":"widget"
+        },
+        {
+            "name":"pricing-widget",
+            "directory":"widgets",
+            "presenterClassName":"PricingWidget",
+            "type":"widget"
+        },
+        {
+            "name":"privacy-widget",
+            "directory":"widgets",
+            "presenterClassName":"PrivacyWidget",
+            "type":"widget"
+        }
+    ]
+}
