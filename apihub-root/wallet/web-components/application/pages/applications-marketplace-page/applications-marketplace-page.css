@@ -1,0 +1,57 @@
+applications-marketplace-page {
+    display: flex;
+    height: 100%;
+    position: relative;
+}
+
+#page-content {
+    overflow: initial;
+}
+
+.applications-marketplace-page {
+    position: relative;
+    overflow: scroll;
+    width: 100%;
+}
+
+.marketplace-table {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    gap: 20px;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.marketplace-header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+*[theme="dark"] .add-marketplace {
+    color: var(--user-text);
+}
+
+.category-header {
+    padding: 0 20px 20px 20px;
+}
+
+
+.description {
+    color: var(--medium-gray);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.background {
+    z-index: -1;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}

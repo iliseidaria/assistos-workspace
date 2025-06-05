@@ -1,0 +1,10 @@
+{
+    "defaultApplicationName": "Space",
+    "services": [
+        {
+            "name": "ValidationService",
+            "path": "./wallet/core/services/ValidationService.js"
+        }
+    ],
+    "docsConverterUrl": "http://localhost:3001"
+}

@@ -1,0 +1,46 @@
+#botId{
+    max-width: 500px;
+}
+.telegram-bot-status{
+    margin-bottom: 20px;
+}
+.users-table{
+    margin-top: 20px;
+}
+.user{
+    display: flex;
+}
+.user-first-name,
+.user-last-name{
+    margin-right: 10px;
+}
+.table-header{
+    font-weight: bold;
+}
+.delete-user{
+    margin-left: 20px;
+}
+.bot-name,
+.bot-username{
+    display: flex;
+}
+.label{
+    font-weight: bold;
+    margin-right: 10px;
+}
+.document-link{
+    cursor: pointer;
+    color: var(--medium-blue);
+    text-decoration: underline;
+}
+.document-link:hover{
+    color: var(--blue-black);
+}
+.bot-public{
+    display: flex;
+    align-items: center;
+}
+.public-checkbox{
+    width: 20px;
+    height: 20px;
+}
